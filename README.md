@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# 🚀 Abhishek Tiwari — Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A highly interactive and modern personal portfolio built with **React + TypeScript + Tailwind CSS**, featuring elegant animations, dark mode, and a unique twist of personality — inspired by Madbox.io.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- 🎨 **Beautiful design** with custom typography and theming
+- 💡 **Fun Facts carousel** with animated progress gradient bar
+- 🌓 **Dark/light mode** toggle with persistence
+- 🧠 **Responsive layout** for all screen sizes
+- ⚙️ **Framer Motion** animations (scroll entrance, parallax, transitions)
+- 📂 Sections:
+  - Hero
+  - About
+  - Projects
+  - Skills
+  - Contact
+  - Education & Publications
 
-### `npm start`
+## 🔧 Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- ⚛️ React + TypeScript
+- 🎨 Tailwind CSS
+- 🧠 Framer Motion
+- 📱 Mobile-first design
+- 🌓 Theme toggling with Tailwind + localStorage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🖥️ Local Development
 
-### `npm test`
+### 📦 Install dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+### 🚀 Run development server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🛠️ Build for production
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run build
+```

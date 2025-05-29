@@ -3,16 +3,12 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const facts = [
   {
-    text: "👨‍💻 I’ve worked on distributed systems using Go and Kubernetes.",
+    text: "👨‍💻 I've worked on distributed systems using Go and Kubernetes.",
     gradient: "from-pink-500 via-red-500 to-yellow-500",
   },
   {
     text: "🌍 I love building on GCP and AWS cloud-native infra.",
     gradient: "from-blue-400 via-cyan-400 to-teal-400",
-  },
-  {
-    text: "🎮 Game dev and UI polish are my creative outlets.",
-    gradient: "from-purple-500 via-fuchsia-500 to-pink-500",
   },
   {
     text: "✍️ I love simplifying complex systems into readable code.",
@@ -21,6 +17,14 @@ const facts = [
   {
     text: "🧠 My current obsession: making dev tools more intuitive.",
     gradient: "from-lime-500 via-green-500 to-emerald-400",
+  },
+  {
+    text: "🌎 I enjoy understanding world affairs and geopolitics",
+    gradient: "from-purple-500 via-fuchsia-500 to-pink-500",
+  },
+  {
+    text: "💹 I'm fascinated by finance and love investing in financial markets",
+    gradient: "from-cyan-500 via-fuchsia-500 to-violet-500",
   },
 ];
 

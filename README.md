@@ -1,6 +1,6 @@
 # 🚀 Abhishek Tiwari — Developer Portfolio
 
-A highly interactive and modern personal portfolio built with **React + TypeScript + Tailwind CSS**, featuring elegant animations, dark mode, and a unique twist of personality — inspired by Madbox.io.
+A highly interactive and modern personal portfolio built with **React + TypeScript + Tailwind CSS**, featuring elegant animations, dark mode, and a unique twist of personality.
 
 ## ✨ Features
 

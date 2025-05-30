@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import ThemeToggle from "./ThemeToggle";
 import { AnimatePresence, motion } from "framer-motion";
+import { FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
 
 const Navbar: React.FC = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -47,8 +48,13 @@ const Navbar: React.FC = () => {
 
     return (
         <nav
-            className={`fixed top-0 left-0 w-full z-50 backdrop-blur bg-white/80 dark:bg-[#0f172a]/80 transition-all ${scrolled ? "shadow-md" : ""
-                }`}
+            className={`
+            fixed top-0 left-0 w-full z-50
+            backdrop-blur
+            bg-white/80 dark:bg-[#0f172a]/80
+            transition-all
+            ${scrolled ? "shadow-2xl border-b-2 border-pink-500/40 dark:border-pink-600/40" : ""}
+            `}
         >
             <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
                 <span className="font-abhi text-xl bg-gradient-to-r from-pink-500 to-red-500 text-transparent bg-clip-text font-black">
@@ -69,6 +75,22 @@ const Navbar: React.FC = () => {
                     ))}
                     <ThemeToggle />
                 </ul>
+
+                {/* Desktop Quick Contact */}
+                <div className="hidden md:flex items-center gap-2 ml-4">
+                    <a href="mailto:at03163@gmail.com" aria-label="Email" title="Email"
+                        className="p-2 rounded-full hover:bg-pink-100/40 transition text-pink-500 text-xl">
+                        <FaEnvelope />
+                    </a>
+                    <a href="tel:+918449974297" aria-label="Phone" title="Phone"
+                        className="p-2 rounded-full hover:bg-green-100/40 transition text-green-500 text-xl">
+                        <FaPhone />
+                    </a>
+                    <a href="https://linkedin.com/in/abhishektiwari016" aria-label="LinkedIn" target="_blank" rel="noopener"
+                        className="p-2 rounded-full hover:bg-blue-100/40 transition text-blue-500 text-xl" title="LinkedIn">
+                        <FaLinkedin />
+                    </a>
+                </div>
 
                 {/* Mobile Toggle */}
                 <div className="md:hidden flex items-center gap-4">
@@ -108,6 +130,18 @@ const Navbar: React.FC = () => {
                                     </li>
                                 ))}
                             </ul>
+                            <div className="flex gap-4 justify-center mt-5">
+                                <a href="mailto:at03163@gmail.com" aria-label="Email" className="p-2 rounded-full text-pink-500 text-2xl bg-white/20 dark:bg-pink-900/10">
+                                    <FaEnvelope />
+                                </a>
+                                <a href="tel:+918449974297" aria-label="Phone" className="p-2 rounded-full text-green-500 text-2xl bg-white/20 dark:bg-green-900/10">
+                                    <FaPhone />
+                                </a>
+                                <a href="https://linkedin.com/in/abhishektiwari016" aria-label="LinkedIn" target="_blank" rel="noopener"
+                                    className="p-2 rounded-full text-blue-500 text-2xl bg-white/20 dark:bg-blue-900/10">
+                                    <FaLinkedin />
+                                </a>
+                            </div>
                         </div>
                     </motion.div>
                 )}

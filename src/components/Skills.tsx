@@ -34,7 +34,7 @@ const tagColors: Record<string, string> = {
 
     Redis: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200",
     MySQL: "bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-200",
-    SQL: "bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-200",
+    SQL: "bg-cyan-100 text-cyan-800 dark:bg-cyan-800 dark:text-cyan-200",
 
     Prometheus: "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200",
     Grafana: "bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-200",

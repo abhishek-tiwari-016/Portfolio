@@ -20,6 +20,14 @@ const projects = [
     placeHolder: "Quora",
   },
   {
+    title: "Portfolio: UI",
+    tech: "React, TypeScript, Tailwind CSS",
+    description: "A highly interactive and modern personal portfolio, featuring elegant animations, dark mode, and a unique twist of personality.",
+    link: "https://github.com/abhishek-tiwari-016/Portfolio",
+    gradient: "from-red-200 to-blue-300",
+    placeHolder: "Github",
+  },
+  {
     title: "NGSCO Diagnostic Tool",
     tech: "Go, CLI, Docker",
     description: "CLI/GUI tool to debug container environments. Top 10 in NCR Hackathon.",

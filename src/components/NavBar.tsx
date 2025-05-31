@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import ThemeToggle from "./ThemeToggle";
 import { AnimatePresence, motion } from "framer-motion";
-import { FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaLinkedin, FaDownload } from "react-icons/fa";
 
 const Navbar: React.FC = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -57,9 +57,19 @@ const Navbar: React.FC = () => {
             `}
         >
             <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-                <span className="font-abhi text-xl bg-gradient-to-r from-pink-500 to-red-500 text-transparent bg-clip-text font-black">
+                {/* <div className="px-5 py-1 rounded-full bg-white/10 dark:bg-white/5 backdrop-blur-md shadow border border-white/20"> */}
+                <span
+                    className="
+                    bg-gradient-to-r from-pink-500 via-blue-400 to-yellow-400
+                    bg-[length:200%_200%]
+                    animate-gradient-x
+                    bg-clip-text text-transparent
+                    font-black text-xl tracking-tight
+                    "
+                >
                     Abhishek
                 </span>
+                {/* </div> */}
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex space-x-6 text-sm md:text-base items-center">
@@ -73,6 +83,20 @@ const Navbar: React.FC = () => {
                             </a>
                         </li>
                     ))}
+                    {/* Resume Button */}
+                    <li>
+                        <a
+                            href="/Abhishek_Tiwari_Resume_FullStack.pdf"
+                            download
+                            target="_blank"
+                            rel="noopener"
+                            className="font-abhi px-4 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-orange-400 text-white text-sm shadow hover:scale-105 transition-all flex items-center gap-2"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" className="w-4 h-4"><path fill="currentColor" d="M9 2.75A.75.75 0 0 1 10 2a.75.75 0 0 1 .75.75V12l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06L9 12V2.75ZM2.75 17a.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5h-13a.75.75 0 0 1-.75-.75Z" /></svg>
+                            {/* <FaDownload className="w-5 h-5"/> */}
+                            Resume
+                        </a>
+                    </li>
                     <ThemeToggle />
                 </ul>
 
@@ -130,6 +154,18 @@ const Navbar: React.FC = () => {
                                     </li>
                                 ))}
                             </ul>
+                            <a
+                                href="/Abhishek_Tiwari_Resume_FullStack.pdf"
+                                download
+                                target="_blank"
+                                rel="noopener"
+                                className="mt-4 block font-abhi px-4 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-orange-400 text-white text-center text-base shadow hover:scale-105 transition-all"
+                            >
+                                <span className="inline-flex items-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" className="w-4 h-4"><path fill="currentColor" d="M9 2.75A.75.75 0 0 1 10 2a.75.75 0 0 1 .75.75V12l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06L9 12V2.75ZM2.75 17a.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5h-13a.75.75 0 0 1-.75-.75Z" /></svg>
+                                    Resume
+                                </span>
+                            </a>
                             <div className="flex gap-4 justify-center mt-5">
                                 <a href="mailto:at03163@gmail.com" aria-label="Email" className="p-2 rounded-full text-pink-500 text-2xl bg-white/20 dark:bg-pink-900/10">
                                     <FaEnvelope />

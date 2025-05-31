@@ -31,6 +31,16 @@ const About: React.FC = () => {
                             With 3+ years of experience in <span className="text-accent font-semibold">Go</span>, <span className="text-accent font-semibold">Node.js</span>, <span className="text-accent font-semibold">React</span>, and <span className="text-accent font-semibold">Kubernetes</span>, I specialize in backend architecture, observability, and cloud-native development.
                         </p>
                     </div>
+                    <a
+                        href="/Abhishek_Tiwari_Resume_FullStack.pdf"
+                        download
+                        target="_blank"
+                        rel="noopener"
+                        className="inline-flex items-center gap-2 px-5 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-orange-400 text-white font-abhi font-bold text-base shadow-md hover:scale-105 transition-all mt-6"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" className="w-5 h-5"><path fill="currentColor" d="M9 2.75A.75.75 0 0 1 10 2a.75.75 0 0 1 .75.75V12l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06L9 12V2.75ZM2.75 17a.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5h-13a.75.75 0 0 1-.75-.75Z" /></svg>
+                        Download Resume
+                    </a>
                 </div>
                 <Parallax offset={40}>
                     {/* <div className="bg-surface rounded-3xl h-64 md:h-96 shadow-lg flex items-center justify-center">

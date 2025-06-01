@@ -20,21 +20,15 @@ const Contact: React.FC = () => {
           <span className="bg-gradient-to-r from-pink-500 to-green-400 bg-clip-text text-transparent font-bold"> feel free to reach out!</span>
         </p>
 
-        <div className="flex flex-col md:flex-row gap-4 justify-center mb-6">
-          <a href="mailto:at03163@gmail.com"
-            className="flex items-center px-5 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-pink-500 to-orange-400 shadow transition-transform hover:scale-105"
-          >
-            <FaEnvelope className="text-2xl mr-3" /> at03163@gmail.com
+        <div className="flex flex-row gap-5 justify-center">
+          <a href="mailto:at03163@gmail.com" aria-label="Email" className="p-3 rounded-full text-pink-500 text-2xl bg-white/20 dark:bg-[#223369] transition-transform hover:scale-110">
+            <FaEnvelope />
           </a>
-          <a href="tel:+918449974297"
-            className="flex items-center px-5 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-green-400 to-emerald-500 shadow transition-transform hover:scale-105"
-          >
-            <FaPhone className="text-2xl mr-3" /> +91 8449974297
+          <a href="tel:+918449974297" aria-label="Phone" className="p-3 rounded-full text-green-500 text-2xl bg-white/20 dark:bg-[#223369] transition-transform hover:scale-110">
+            <FaPhone />
           </a>
-          <a href="https://wa.me/+918445537711"
-            className="flex items-center px-5 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-green-400 to-emerald-500 shadow transition-transform hover:scale-105"
-          >
-            <FaWhatsapp className="text-2xl mr-3" /> 8445537711
+          <a href="https://wa.me/+918445537711" className="p-3 rounded-full text-green-500 text-2xl bg-white/20 dark:bg-[#223369] transition-transform hover:scale-110">
+            <FaWhatsapp />
           </a>
         </div>
 
